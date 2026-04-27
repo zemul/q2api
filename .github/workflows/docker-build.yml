@@ -23,9 +23,3 @@ jobs:
           push: true
           tags: zemiaozhou/q2api:latest
 
-      - name: Build and push account-feeder
-        uses: docker/build-push-action@v5
-        with:
-          context: ./account-feeder
-          push: true
-          tags: zemiaozhou/account-feeder:latest
